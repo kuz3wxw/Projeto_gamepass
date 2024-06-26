@@ -1,7 +1,7 @@
 
 def planos_jogos():
 
-    b = print("""Bem-vindo ao catalogo de jogos!\n Agora vamos escolher o plano ideal para você!
+    bronze = print("""Bem-vindo ao catalogo de jogos!\n Agora vamos escolher o plano ideal para você!
 
         Esses são os planos disponiveis:
 
@@ -20,7 +20,7 @@ Valiant Hearts: The Great War™
 
         R$ 50,00""")
     
-    p = print(""" 
+    prata = print(""" 
 
         Prata
 
@@ -62,7 +62,7 @@ Undertale
         R$ 80,00""")
             
 
-    o = print("""  
+    ouro = print("""  
 
         Ouro
 
@@ -106,16 +106,18 @@ Two Point Hospital™
 
         R$ 150,00""")
     
-    print('Digite o nome do plano desejado!')
-    bronze = input('Bronze')
-    prata = input('Prata')
-    ouro = input('Ouro')
 
-    if b =='Bronze':
+    
+    plano = input('Digite o numero do plano desejado: ')
+   
+    if plano == '1':
         print('Voce escolheu o plano Bronze')
-    elif p =='Prata':
+    elif plano == '2':
         print('Voce escolheu o plano Prata')
-    elif o == 'Ouro':
+    elif plano == '3':
         print('Voce escolheu o plano Ouro')
     else:
         print('plano inexistente ')
+
+def ver_plano():
+    pass
