@@ -1,3 +1,4 @@
+
 def planos_jogos():
 
     bronze = print("""Bem-vindo ao catalogo de jogos!\n Agora vamos escolher o plano ideal para você!
