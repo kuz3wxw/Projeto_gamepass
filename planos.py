@@ -1,11 +1,14 @@
 
 def planos_jogos():
 
-    bronze = print("""Bem-vindo ao catalogo de jogos!\n Agora vamos escolher o plano ideal para você!
+    bronze = print("""
+                   
+Bem-vindo ao catalogo de jogos!\n Agora vamos escolher o plano ideal para você!
 
-        Esses são os planos disponiveis:
+    Esses são os planos disponiveis:
 
         Bronze
+                   
 Assassin's Creed Rogue Remastered
 Bee Simulator
 Ben 10: Power Trip
@@ -104,20 +107,20 @@ Two Point Hospital: JUMBO Edition
 Two Point Hospital™
 
 
-        R$ 150,00""")
+        R$ 150,00\n""")
     
 
     
-    plano = input('Digite o numero do plano desejado: ')
+    plano = input('Digite o numero do plano desejado: 1-Bronze / 2-Prata / 3-Ouro\n')
    
     if plano == '1':
-        print('Voce escolheu o plano Bronze')
+        print('Voce escolheu o plano Bronze\n')
     elif plano == '2':
-        print('Voce escolheu o plano Prata')
+        print('Voce escolheu o plano Prata\n')
     elif plano == '3':
-        print('Voce escolheu o plano Ouro')
+        print('Voce escolheu o plano Ouro\n')
     else:
-        print('plano inexistente ')
+        print('plano inexistente\n')
 
 def ver_plano():
     pass
